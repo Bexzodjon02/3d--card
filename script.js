@@ -20,7 +20,7 @@ block.addEventListener('mousemove', (e) =>{
     const y = windowHeight / 2 - mouseY
     
     card.style.transform = `rotateX(${y / 1}deg) rotateY(${x / 1}deg)`
-    card.style.transition = `0s`
+    card.style.transition = `2s`
     
     image.style.transform = 'translateZ(50px) rotate(45deg)'
     circle.style.transform = 'translateZ(-30px) scale(0.8)'
